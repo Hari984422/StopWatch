@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+}
+
+#timeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 100px;
+  font-size: 30px;
+  padding: 0px 100px;
+  cursor: pointer;
+}
+
+#timeDisplay {
+  background-color: rgb(255, 210, 28);
+  padding: 30px 100px;
+
+}
+
+#startButton,
+#pauseButton,
+#resetButton {
+  padding: 10px 40px;
+  border: white 4px solid;
+  border-radius: 40px;
+}
+
+#pauseButton {
+  background-color: red;
+}
+
+#resetButton {
+  color: black;
+  background-color: rgb(42, 205, 255);
+}
